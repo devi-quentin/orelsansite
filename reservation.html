@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Projet Orelsan - Réservation</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <ul>
+                <li>Accueil</li>
+                <li>Les albums</li>
+                <li class="active">Réservation</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MENU SOCIAL FIXED -->
+    <aside id="social-menu">
+        <a href="#" class="icon facebook"></a>
+        <a href="#" class="icon twitter"></a>
+        <a href="#" class="icon instagram"></a>
+    </aside>
+
+    <!-- SECTION 1 -->
+    <section>
+        <h1>Les dates</h1>
+        <div>
+            <address>
+                <img src="./images/orelsan-concert.jpg" alt="Orelsan concert">
+                <h1>Contact</h1>
+                <p>0498 245 256</p>
+                <p>info@orelsan7th.com</p>
+            </address>
+            <table>
+                <!-- En tete tableau -->
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Ville</th>
+                        <th>Disponibiltés</th>
+                        <th>Réservation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- ligne 1 -->
+                    <tr>
+                        <td>21 janvier 2018</td>
+                        <td>Paris</td>
+                        <td>Oui</td>
+                        <td><a href="#" class="button">Tickets</a></td>
+                    </tr>
+                    <!-- ligne 2 -->
+                    <tr>
+                        <td>25 janvier 2018</td>
+                        <td>Bruxelles</td>
+                        <td>Oui</td>
+                        <td><a href="#" class="button">Tickets</a></td>
+                    </tr>
+                    <!-- ligne 3 -->
+                    <tr>
+                        <td>8 février 2018</td>
+                        <td>Lille</td>
+                        <td>Oui</td>
+                        <td><a href="#" class="button">Tickets</a></td>
+                    </tr>
+                    <!-- ligne 4 -->
+                    <tr>
+                        <td>9 février 2018</td>
+                        <td>Cean</td>
+                        <td>Non</td>
+                        <td><a href="#" class="button">Tickets</a></td>
+                    </tr>
+                    <!-- ligne 5 -->
+                    <tr>
+                        <td>12 février 2018</td>
+                        <td>Marseille</td>
+                        <td>Oui</td>
+                        <td><a href="#" class="button">Tickets</a></td>
+                    </tr>
+                    <!-- ligne 6 -->
+                    <tr>
+                        <td>14 février 2018</td>
+                        <td>Toulouse</td>
+                        <td>Oui</td>
+                        <td><a href="#" class="button">Tickets</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section>
+        <h1>Réservation</h1>
+
+        <form action="#">
+            <fieldset>
+                <legend>Coordonnées</legend>
+
+                <label for="name">Nom</label>
+                <input type="text" name="name" id="name">
+
+                <label for="surname">Prénom</label>
+                <input type="text" name="surname" id="surname">
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+
+                <label for="telephone">Téléphone</label>
+                <input type="tel" name="telephone" id="telephone">
+            </fieldset>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <address>
+            <div>
+                <h1>Contact</h1>
+                <p>0498 245 256</p>
+                <p>info@orelsan7th.com</p>
+            </div>
+            <div>
+                <h1>Prochaine dates de tournée</h1>
+                <p>25 janvier - Paris</p>
+                <p>25 janvier - Bruxelles</p>
+                <p>25 janvier - Lille</p>
+            </div>
+            <div>
+                <h1>Navigation</h1>
+                <p>Accueil</p>
+                <p>Les albums</p>
+                <p>Réservation</p>
+            </div>
+        </address>
+    </footer>
+</body>
+
+</html>
