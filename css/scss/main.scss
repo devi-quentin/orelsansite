@@ -1,6 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import "header";
+@import "section_date";
+@import "section_with_aside";
+@import "section_discographie";
+@import "section_float";
+@import "form";
+@import "social-menu";
+@import "footer";
 :root {
     --width-content: 980px;
     --color-text: rgb(25, 25, 25);
     --color-white: rgb(240, 240, 240);
+    --color-red: #AC2529;
+    --width-content: 980px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 64px;
+    padding-bottom: 50px;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+// APPARENCE BOUTONS
+a.button,
+button {
+    padding: 8px 10px;
+    border: 1px solid var(--color-red);
+    color: var(--color-red);
+    background-color: white;
+    transition: all .2s;
+    &:hover {
+        background-color: var(--color-red);
+        color: white;
+    }
+}
+
+body>section {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    width: var(--width-content);
+    >video {
+        width: 854px;
+    }
 }

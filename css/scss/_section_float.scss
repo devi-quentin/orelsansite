@@ -1,0 +1,21 @@
+section.float {
+    display: block;
+    img {
+        width: 250px;
+    }
+    h1 {
+        text-align: left;
+    }
+    &.left {
+        img {
+            float: left;
+            margin: 0 50px 50px 0;
+        }
+    }
+    &.right {
+        img {
+            float: right;
+            margin: 0 0 50px 50px;
+        }
+    }
+}

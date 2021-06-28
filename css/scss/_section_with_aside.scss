@@ -1,0 +1,31 @@
+section.with-aside {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    >aside {
+        min-width: 300px;
+        padding: 25px;
+        margin-left: 50px;
+        background-color: var(--color-red);
+        >img {
+            border-radius: 50%;
+            width: 100%;
+        }
+        >h1 {
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            padding: 20px 0;
+        }
+        >p {
+            .label {
+                color: white;
+            }
+        }
+    }
+    >article {
+        h1 {
+            text-align: center;
+        }
+    }
+}
